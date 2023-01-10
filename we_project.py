@@ -79,7 +79,7 @@
 
 
 
-# рппп лобораторияpro=
+# рппп лоборатория pro=
 # print("x y z f g")
 # for x in (0,1):
 #     for y in (0,1):
@@ -124,4 +124,51 @@
 # hero.healthPoints()
 # hero.catchPhrase()
 
-print(200_000_000_000)
+# print(200_000_000_000)
+
+# class People:
+#     def __init__(self ,name , age) -> None:
+#         self.name = name
+#         self.age = age
+#     def __str__(self) -> str:
+#         return f'{self.name} {self.age}'
+# class run:
+#     def run(self):
+#         print("Run")
+# class Name:
+#     def names(self):
+#         print(self)
+# class Robot:
+#     def __init__(self, model) -> None:
+#         self.model = model
+
+#     def __str__(self) -> str:
+#         return self.model
+
+    
+
+
+
+# class Human(People , run , Name , Robot):
+#     def __init__(self, name, age , model) -> None:
+#         People.__init__(self ,name  , age)
+#         Robot.__init__(self , model)
+#     def __str__(self) -> str:
+#         return f'{self.name} {self.age} {self.model}'
+        
+
+# h = Human("Nurti" , 19 ,"T34")
+# print(h)
+
+
+class comp:
+    _monitor = 1
+    def __init__(self , _model , os) -> None:
+        self._model = _model
+        self.os = os
+    def __str__(self) -> str:
+        return(f"{self._model} {self.os}")
+g= comp("hp" , "Windows")
+print(g)
+
+    
